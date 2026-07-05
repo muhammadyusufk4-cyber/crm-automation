@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Container } from "@/components/ui/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Reveal } from "@/components/ui/Reveal";
-import { Button } from "@/components/ui/Button";
+import { Button } from "@/components/legacy/Button";
 import { caseStudies } from "@/data/case-studies";
 import { ArrowUpRight } from "lucide-react";
 

@@ -1,5 +1,5 @@
 import { Container } from "@/components/ui/Container";
-import { Badge } from "@/components/ui/Badge";
+import { Badge } from "@/components/legacy/Badge";
 import { Reveal } from "@/components/ui/Reveal";
 
 export function PageHero({

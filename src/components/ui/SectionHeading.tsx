@@ -1,5 +1,5 @@
 import { cn } from "@/lib/utils";
-import { Badge } from "./Badge";
+import { Badge } from "@/components/legacy/Badge";
 import { Reveal } from "./Reveal";
 
 export function SectionHeading({

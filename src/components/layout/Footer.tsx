@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Container } from "@/components/ui/Container";
-import { Button } from "@/components/ui/Button";
+import { Button } from "@/components/legacy/Button";
 import { footerNav } from "@/data/nav";
 import { Mail } from "lucide-react";
 import { LinkedInIcon, XIcon } from "@/components/ui/SocialIcons";

@@ -1,5 +1,5 @@
 import { Container } from "@/components/ui/Container";
-import { Button } from "@/components/ui/Button";
+import { Button } from "@/components/legacy/Button";
 import { Reveal } from "@/components/ui/Reveal";
 
 export function CTASection({

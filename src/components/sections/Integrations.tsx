@@ -1,6 +1,6 @@
 import { Container } from "@/components/ui/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
-import { Marquee } from "@/components/ui/Marquee";
+import { Marquee } from "@/components/legacy/Marquee";
 import { crmPlatforms, aiPlatforms, automationTools } from "@/data/integrations";
 
 function LogoPill({ name }: { name: string }) {
