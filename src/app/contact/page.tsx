@@ -12,7 +12,7 @@ import { Mail, Clock, MessageCircle } from "lucide-react";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Book a strategy call with SummitOps to map out where CRM automation, AI agents, and workflow automation would save your team the most time.",
+    "Book a strategy call with Converge to map out where CRM automation, AI agents, and workflow automation would save your team the most time.",
 };
 
 export default function ContactPage() {
@@ -54,8 +54,8 @@ export default function ContactPage() {
                 <div className="rounded-xl border border-border-subtle bg-surface p-5">
                   <Mail className="size-5 text-electric" />
                   <div className="mt-3 text-sm font-medium">Email</div>
-                  <a href="mailto:hello@summitops.ai" className="text-sm text-foreground/60 hover:text-foreground">
-                    hello@summitops.ai
+                  <a href="mailto:hello@converge.ai" className="text-sm text-foreground/60 hover:text-foreground">
+                    hello@converge.ai
                   </a>
                 </div>
                 <div className="rounded-xl border border-border-subtle bg-surface p-5">

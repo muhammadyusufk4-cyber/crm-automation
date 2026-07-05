@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     template: `%s | ${SITE_NAME}`,
   },
   description:
-    "SummitOps builds CRM automation, AI agents, and revenue operations systems that eliminate manual sales work so your team spends more time closing deals.",
+    "Converge builds CRM automation, AI agents, and revenue operations systems that eliminate manual sales work so your team spends more time closing deals.",
   keywords: [
     "CRM automation",
     "AI agents",

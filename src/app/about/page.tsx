@@ -9,7 +9,7 @@ import { Target, Compass, ShieldCheck, Gauge, Layers, Users2 } from "lucide-reac
 export const metadata: Metadata = {
   title: "About",
   description:
-    "SummitOps is a revenue automation partner helping B2B teams eliminate manual sales work with CRM automation, AI agents, and RevOps consulting.",
+    "Converge is a revenue automation partner helping B2B teams eliminate manual sales work with CRM automation, AI agents, and RevOps consulting.",
 };
 
 const values = [
@@ -58,9 +58,9 @@ export default function AboutPage() {
   return (
     <>
       <PageHero
-        eyebrow="About SummitOps"
+        eyebrow="About Converge"
         title="We build the systems behind the sale."
-        description="SummitOps exists because too much revenue gets lost to manual process, not bad strategy. We fix the process."
+        description="Converge exists because too much revenue gets lost to manual process, not bad strategy. We fix the process."
       />
 
       <section className="pb-24 sm:pb-32">
@@ -71,7 +71,7 @@ export default function AboutPage() {
           <Reveal delay={0.05}>
             <div className="mt-6 space-y-4 text-foreground/70 leading-relaxed">
               <p>
-                SummitOps started with a simple observation: the highest-performing sales teams
+                Converge started with a simple observation: the highest-performing sales teams
                 we worked with weren&apos;t winning because of better reps or bigger budgets —
                 they were winning because almost nothing manual stood between a lead showing up
                 and a rep having everything they needed to close it.

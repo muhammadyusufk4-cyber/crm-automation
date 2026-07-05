@@ -4,7 +4,7 @@ import { Container } from "@/components/ui/Container";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
-  description: "How SummitOps collects, uses, and protects your data.",
+  description: "How Converge collects, uses, and protects your data.",
 };
 
 export default function PrivacyPage() {
@@ -35,7 +35,7 @@ export default function PrivacyPage() {
               <h2 className="text-xl font-medium text-foreground">Data storage</h2>
               <p className="mt-3">
                 Form submissions are transmitted securely to our internal CRM. You may request
-                deletion of your data at any time by emailing hello@summitops.ai.
+                deletion of your data at any time by emailing hello@converge.ai.
               </p>
             </div>
             <div>
@@ -49,8 +49,8 @@ export default function PrivacyPage() {
               <h2 className="text-xl font-medium text-foreground">Contact</h2>
               <p className="mt-3">
                 Questions about this policy can be sent to{" "}
-                <a href="mailto:hello@summitops.ai" className="text-electric">
-                  hello@summitops.ai
+                <a href="mailto:hello@converge.ai" className="text-electric">
+                  hello@converge.ai
                 </a>
                 .
               </p>

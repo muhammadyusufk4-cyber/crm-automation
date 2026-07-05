@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "nodejs";
-export const alt = "SummitOps — CRM Automation, AI Agents & Revenue Operations";
+export const alt = "Converge — CRM Automation, AI Agents & Revenue Operations";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -41,9 +41,9 @@ export default function Image() {
               justifyContent: "center",
             }}
           >
-            S
+            C
           </div>
-          SummitOps
+          Converge
         </div>
         <div
           style={{

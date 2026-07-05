@@ -1,4 +1,4 @@
-# SummitOps — Revenue Automation Website
+# Converge — Revenue Automation Website
 
 A production-ready marketing website for a CRM automation, AI agents, and
 RevOps consulting agency. Built with Next.js 16 (App Router), TypeScript,

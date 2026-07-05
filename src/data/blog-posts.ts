@@ -21,7 +21,7 @@ export const blogPosts: BlogPost[] = [
     category: "CRM",
     date: "2026-06-02",
     readTime: "6 min read",
-    author: "SummitOps Team",
+    author: "Converge Team",
     content: [
       "Most CRMs don't fail because the software is bad. They fail because the processes built on top of them were never automated, so the system slowly fills up with duplicate records, stale deals, and fields nobody trusts.",
       "Here are seven signals we look for during a CRM audit that reliably indicate an automation gap rather than a tooling problem.",
@@ -43,7 +43,7 @@ export const blogPosts: BlogPost[] = [
     category: "AI",
     date: "2026-05-20",
     readTime: "7 min read",
-    author: "SummitOps Team",
+    author: "Converge Team",
     content: [
       "The term 'chatbot' and 'AI agent' get used interchangeably, but the underlying architecture — and what you can trust them to do — is fundamentally different.",
       "Traditional chatbots follow decision trees. They match keywords or button clicks to a pre-written script. They're reliable for narrow FAQ-style tasks but break the moment a conversation goes off-script.",
@@ -61,7 +61,7 @@ export const blogPosts: BlogPost[] = [
     category: "Sales",
     date: "2026-05-08",
     readTime: "5 min read",
-    author: "SummitOps Team",
+    author: "Converge Team",
     content: [
       "Simple round-robin routing is the most common lead routing setup we inherit — and one of the first things we replace.",
       "The problem: round-robin treats every rep as equally available and every lead as equally valuable. Neither is true. A rep on PTO still gets leads. A high-intent enterprise lead gets routed the same way as a low-fit trial signup.",
@@ -79,7 +79,7 @@ export const blogPosts: BlogPost[] = [
     category: "HubSpot",
     date: "2026-04-22",
     readTime: "8 min read",
-    author: "SummitOps Team",
+    author: "Converge Team",
     content: [
       "We get asked to settle the HubSpot vs. Salesforce debate constantly, and the honest answer is that the 'better' platform depends entirely on five factors.",
       "Team size and complexity: HubSpot's out-of-the-box structure fits fast-moving teams under ~150 people well. Salesforce's flexibility pays off once you have complex approval chains, multiple business units, or heavy customization needs.",
@@ -98,7 +98,7 @@ export const blogPosts: BlogPost[] = [
     category: "RevOps",
     date: "2026-04-05",
     readTime: "6 min read",
-    author: "SummitOps Team",
+    author: "Converge Team",
     content: [
       "Most RevOps roadmaps fail because they try to fix everything at once. The teams that see fast results sequence their first 90 days around leverage, not completeness.",
       "Days 1-15: Audit and baseline. Before building anything, get a clear picture of current conversion rates by stage, data quality issues, and where reps spend time that isn't selling.",
@@ -116,7 +116,7 @@ export const blogPosts: BlogPost[] = [
     category: "GoHighLevel",
     date: "2026-03-18",
     readTime: "7 min read",
-    author: "SummitOps Team",
+    author: "Converge Team",
     content: [
       "For agencies and SaaS resellers running multiple GoHighLevel sub-accounts, a reusable snapshot is the difference between a one-week onboarding and a same-day deployment.",
       "Start with the account structure. Decide what's global (shared pipelines, tags, custom fields) versus what's client-specific (branding, calendars, phone numbers) before you build a single funnel.",

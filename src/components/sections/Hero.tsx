@@ -86,7 +86,7 @@ export function Hero() {
               <span className="size-2.5 rounded-full bg-red-400/70" />
               <span className="size-2.5 rounded-full bg-yellow-400/70" />
               <span className="size-2.5 rounded-full bg-green-400/70" />
-              <span className="ml-3 text-xs text-foreground/40">pipeline.summitops.ai</span>
+              <span className="ml-3 text-xs text-foreground/40">pipeline.converge.ai</span>
             </div>
             <div className="rounded-xl border border-border-subtle bg-surface p-6 sm:p-10">
               <div className="grid gap-6 sm:grid-cols-4">

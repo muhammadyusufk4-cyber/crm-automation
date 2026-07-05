@@ -28,9 +28,9 @@ export function Footer() {
           <div className="col-span-2 sm:col-span-1">
             <Link href="/" className="flex items-center gap-2 text-lg font-semibold tracking-tight">
               <span className="flex size-7 items-center justify-center rounded-lg bg-gradient-to-br from-electric to-violet text-sm text-white">
-                S
+                C
               </span>
-              SummitOps
+              Converge
             </Link>
             <p className="mt-4 max-w-xs text-sm text-foreground/60">
               The revenue automation partner for teams who&apos;d rather build systems than
@@ -56,7 +56,7 @@ export function Footer() {
                 <XIcon className="size-4" />
               </a>
               <a
-                href="mailto:hello@summitops.ai"
+                href="mailto:hello@converge.ai"
                 aria-label="Email"
                 className="flex size-8 items-center justify-center rounded-full border border-border-subtle text-foreground/60 hover:text-foreground"
               >
@@ -107,7 +107,7 @@ export function Footer() {
 
         <div className="flex flex-col items-start justify-between gap-4 border-t border-border-subtle pt-8 sm:flex-row sm:items-center">
           <p className="text-xs text-foreground/50">
-            © {new Date().getFullYear()} SummitOps. All rights reserved.
+            © {new Date().getFullYear()} Converge. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
             {footerNav.legal.map((item) => (

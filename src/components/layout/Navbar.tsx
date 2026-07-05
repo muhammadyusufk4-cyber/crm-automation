@@ -44,9 +44,9 @@ export function Navbar() {
       <Container className="flex h-18 items-center justify-between py-4">
         <Link href="/" className="flex items-center gap-2 text-lg font-semibold tracking-tight">
           <span className="flex size-7 items-center justify-center rounded-lg bg-gradient-to-br from-electric to-violet text-sm text-white">
-            S
+            C
           </span>
-          SummitOps
+          Converge
         </Link>
 
         <nav className="hidden items-center gap-1 lg:flex">
