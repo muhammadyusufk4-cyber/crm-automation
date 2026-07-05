@@ -3,8 +3,8 @@ import { Button } from "@/components/legacy/Button";
 import { Reveal } from "@/components/ui/Reveal";
 
 export function CTASection({
-  title = "Ready to automate your revenue operations?",
-  description = "Book a 30-minute strategy call. We'll map out exactly where automation would save your team the most time — no obligation.",
+  title = "Ready to stop losing jobs to slow follow-up?",
+  description = "Book a free 30-minute call. We'll show you exactly where you're losing time and customers, and what fixing it would look like — no obligation, no pressure.",
   primaryLabel = "Book a Strategy Call",
   primaryHref = "/contact",
   secondaryLabel,

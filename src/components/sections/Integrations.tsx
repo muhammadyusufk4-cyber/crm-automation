@@ -17,8 +17,8 @@ export function Integrations() {
       <Container>
         <SectionHeading
           eyebrow="Integrations"
-          title="Works with the tools you already run on."
-          description="No rip-and-replace. We automate on top of your existing CRM, AI, and outbound stack."
+          title="Works with the tools you already use."
+          description="No need to switch software. We build automation on top of your current CRM and the tools your team already knows."
         />
       </Container>
 

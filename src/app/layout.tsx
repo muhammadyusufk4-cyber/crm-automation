@@ -19,20 +19,21 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: `${SITE_NAME} — CRM Automation, AI Agents & Revenue Operations`,
+    default: `${SITE_NAME} — CRM Automation & AI Agents for Local Service Businesses`,
     template: `%s | ${SITE_NAME}`,
   },
   description:
-    "Converge builds CRM automation, AI agents, and revenue operations systems that eliminate manual sales work so your team spends more time closing deals.",
+    "Converge builds CRM automation and AI agents for HVAC, plumbing, electrical, auto, dental, and med-spa businesses — so every call gets answered, every quote gets followed up, and every job gets booked.",
   keywords: [
     "CRM automation",
     "AI agents",
-    "revenue operations",
-    "RevOps consulting",
-    "sales automation",
-    "HubSpot automation",
-    "Salesforce automation",
+    "HVAC software",
+    "plumbing CRM",
+    "auto repair shop software",
+    "med spa scheduling automation",
+    "dental office automation",
     "GoHighLevel automation",
+    "missed call text back",
   ],
   authors: [{ name: SITE_NAME }],
   creator: SITE_NAME,
@@ -41,15 +42,15 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: SITE_URL,
     siteName: SITE_NAME,
-    title: `${SITE_NAME} — CRM Automation, AI Agents & Revenue Operations`,
+    title: `${SITE_NAME} — CRM Automation & AI Agents for Local Service Businesses`,
     description:
-      "We build systems that automate your sales operations so your team spends less time on manual work and more time closing deals.",
+      "We build systems that answer every call, follow up on every quote, and book every job automatically — so your team spends less time on admin and more time serving customers.",
   },
   twitter: {
     card: "summary_large_image",
-    title: `${SITE_NAME} — CRM Automation, AI Agents & Revenue Operations`,
+    title: `${SITE_NAME} — CRM Automation & AI Agents for Local Service Businesses`,
     description:
-      "We build systems that automate your sales operations so your team spends less time on manual work and more time closing deals.",
+      "We build systems that answer every call, follow up on every quote, and book every job automatically — so your team spends less time on admin and more time serving customers.",
   },
   robots: {
     index: true,
@@ -85,7 +86,7 @@ export default function RootLayout({
                 url: SITE_URL,
                 logo: `${SITE_URL}/opengraph-image`,
                 description:
-                  "Revenue automation partner specializing in CRM automation, AI agents, workflow automation, and RevOps consulting.",
+                  "CRM automation and AI agents for HVAC, plumbing, electrical, auto, dental, and med-spa businesses.",
                 sameAs: ["https://linkedin.com", "https://twitter.com"],
               }),
             }}

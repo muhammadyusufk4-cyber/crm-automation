@@ -12,8 +12,8 @@ export function IndustriesSection() {
       <Container>
         <SectionHeading
           eyebrow="Industries"
-          title="Built for teams where manual process costs real revenue."
-          description="Every industry has its own version of the same problem — data scattered, follow-up inconsistent, reps buried in admin."
+          title="Built for the businesses that keep this country running."
+          description="Whether you're chasing HVAC estimates, confirming med-spa appointments, or managing intake for an auto repair shop — the leaks look the same everywhere: slow follow-up, missed calls, and admin work nobody has time for."
         />
 
         <div className="mt-16 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">

@@ -11,7 +11,7 @@ import { ArrowUpRight } from "lucide-react";
 export const metadata: Metadata = {
   title: "Services",
   description:
-    "CRM automation, AI agents, workflow automation, sales automation, and RevOps consulting — the full stack of services to automate your revenue operations.",
+    "CRM automation, AI agents, and hands-on systems consulting for HVAC, plumbing, auto, dental, and med-spa businesses that want fewer missed calls and more booked jobs.",
 };
 
 export default function ServicesPage() {
@@ -19,8 +19,8 @@ export default function ServicesPage() {
     <>
       <PageHero
         eyebrow="Services"
-        title="Every service you need to automate revenue operations."
-        description="From CRM setup to AI agents, each engagement is scoped to remove a specific bottleneck in how your team sells."
+        title="Every service you need to stop losing jobs to slow follow-up."
+        description="Each service below is scoped to fix one specific leak — missed calls, slow quotes, forgotten follow-up — so you can start with what's costing you the most."
       />
 
       <section className="pb-24 sm:pb-32">

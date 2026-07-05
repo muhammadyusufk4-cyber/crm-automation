@@ -6,7 +6,7 @@ const steps = [
   {
     number: "01",
     title: "Strategy Call",
-    description: "We learn your sales process, tools, and where time and leads are actually being lost.",
+    description: "We learn how your team handles calls, quotes, and follow-up today, and where time and jobs are actually being lost.",
   },
   {
     number: "02",

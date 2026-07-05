@@ -8,21 +8,21 @@ const solutions = [
     icon: Workflow,
     title: "CRM & Workflow Automation",
     description:
-      "We rebuild the operational layer of your CRM — lead routing, scoring, pipeline updates, and reporting — so it runs itself.",
+      "We set up your CRM to capture every call and lead, send quotes and invoices automatically, and remind customers about appointments — so it runs itself instead of running your team ragged.",
     gradient: "from-electric/15 to-transparent",
   },
   {
     icon: Bot,
     title: "AI Agents",
     description:
-      "Custom AI agents that qualify leads, draft responses, and handle first-touch conversations across every channel, 24/7.",
+      "A custom AI agent answers calls and messages, books appointments, and follows up on quotes — around the clock, across every channel your customers actually use.",
     gradient: "from-violet/15 to-transparent",
   },
   {
     icon: Compass,
-    title: "RevOps Consulting",
+    title: "Business Systems Consulting",
     description:
-      "A prioritized roadmap connecting marketing, sales, and success into one coordinated, measurable revenue system.",
+      "A clear, prioritized plan connecting your front desk, dispatch, and billing into one coordinated system you can actually measure and trust.",
     gradient: "from-electric/15 to-violet/10",
   },
 ];
@@ -34,7 +34,7 @@ export function Solutions() {
         <SectionHeading
           eyebrow="The solution"
           title="One partner. Three ways we get you there."
-          description="We don't sell one-off automations. We design a system across your tools, your data, and your team."
+          description="We don't sell one-off automations. We build one connected system across the tools you already use."
         />
 
         <div className="mt-16 grid gap-6 lg:grid-cols-3">

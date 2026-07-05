@@ -11,7 +11,7 @@ import { ArrowUpRight } from "lucide-react";
 export const metadata: Metadata = {
   title: "Industries",
   description:
-    "CRM automation and AI agents built for healthcare, real estate, recruitment, manufacturing, professional services, SaaS, and agencies.",
+    "CRM automation and AI agents built for HVAC, plumbing, electrical, roofing, auto repair, auto detailing, collision centers, med spas, and dental clinics.",
 };
 
 export default function IndustriesPage() {
@@ -19,8 +19,8 @@ export default function IndustriesPage() {
     <>
       <PageHero
         eyebrow="Industries"
-        title="Automation built around how your industry actually sells."
-        description="Every industry has its own pipeline, compliance needs, and follow-up cadence. We design automations around yours, not a generic template."
+        title="Built around how your industry actually books jobs."
+        description="Every trade has its own version of the same problem — slow follow-up, missed calls, admin work nobody has time for. We build around yours, not a generic template."
       />
 
       <section className="pb-24 sm:pb-32">

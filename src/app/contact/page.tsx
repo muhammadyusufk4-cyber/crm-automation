@@ -12,7 +12,7 @@ import { Mail, Clock, MessageCircle } from "lucide-react";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Book a strategy call with Converge to map out where CRM automation, AI agents, and workflow automation would save your team the most time.",
+    "Book a free 30-minute call with Converge to see exactly where your business is losing time and customers — and what fixing it would look like.",
 };
 
 export default function ContactPage() {
@@ -20,8 +20,8 @@ export default function ContactPage() {
     <>
       <PageHero
         eyebrow="Contact"
-        title="Let's map your automation opportunity."
-        description="Fill out the form or grab a slot directly on our calendar — either way you'll talk to someone who can scope the work, not a gatekeeper."
+        title="Let's find out what's actually costing you jobs."
+        description="Fill out the form or grab a time on our calendar. Either way, you'll talk directly to someone who can tell you what to fix — not a call-center script."
       />
 
       <section className="pb-24 sm:pb-32">

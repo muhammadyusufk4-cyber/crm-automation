@@ -220,7 +220,7 @@ export default async function ServiceDetailPage({
 
       <CTASection
         title={`Ready to get started with ${service.name}?`}
-        description="Book a strategy call and we'll show you exactly what this looks like for your team."
+        description="Book a free 30-minute call and we'll show you exactly what this would look like for your business."
       />
     </>
   );

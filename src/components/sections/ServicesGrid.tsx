@@ -15,7 +15,7 @@ export function ServicesGrid() {
           <SectionHeading
             align="left"
             eyebrow="What we build"
-            title="Every automation your revenue engine needs."
+            title="Every automation your business actually needs."
             className="sm:items-start sm:text-left"
           />
           <Button href="/services" variant="outline" className="hidden shrink-0 sm:inline-flex">

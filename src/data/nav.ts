@@ -13,7 +13,7 @@ export const footerNav = {
     { label: "Workflow Automation", href: "/services/workflow-automation" },
     { label: "Sales Automation", href: "/services/sales-automation" },
     { label: "Lead Management", href: "/services/lead-management" },
-    { label: "RevOps Consulting", href: "/services/revops-consulting" },
+    { label: "Business Systems Consulting", href: "/services/business-systems-consulting" },
   ],
   platforms: [
     { label: "HubSpot Services", href: "/services/hubspot-services" },

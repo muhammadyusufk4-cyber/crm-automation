@@ -3,12 +3,12 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 import { ProcessTimeline } from "@/components/ui/ProcessTimeline";
 
 const methodology = [
-  { title: "Discover", description: "Deep-dive audit of your current CRM, tools, and sales process to find where time and revenue leak." },
-  { title: "Design", description: "An automation blueprint mapping every trigger, workflow, and integration before a line is built." },
-  { title: "Build", description: "Implementation directly inside your existing stack — no rip-and-replace, no new tools to adopt." },
-  { title: "Test", description: "Every workflow is run against real and edge-case scenarios before it touches live data." },
-  { title: "Launch", description: "Phased rollout with team training so adoption happens from day one, not after a struggle." },
-  { title: "Optimize", description: "Post-launch tuning based on real usage data, with retainer support for what comes next." },
+  { title: "Discover", description: "A close look at how your team handles calls, quotes, and follow-up today, to find where time and jobs are slipping away." },
+  { title: "Design", description: "A clear plan for every automation before we touch anything — so you know what's changing and why." },
+  { title: "Build", description: "Built directly inside the tools you already use — no switching software, nothing new for your team to learn from scratch." },
+  { title: "Test", description: "Every automation is tested against real scenarios before it ever touches a real customer." },
+  { title: "Launch", description: "A phased rollout with hands-on training, so your team is comfortable from day one." },
+  { title: "Optimize", description: "We keep tuning based on how it's actually being used, with support available for whatever comes next." },
 ];
 
 export function ProcessSection() {
@@ -20,8 +20,8 @@ export function ProcessSection() {
             <SectionHeading
               align="left"
               eyebrow="Our process"
-              title="A repeatable methodology, not a one-off project."
-              description="The same six phases run on every engagement, whether it's a single AI agent or a full RevOps transformation."
+              title="A repeatable process, not a one-off project."
+              description="The same six phases run on every engagement, whether it's a single AI agent or a full system overhaul."
               className="lg:items-start lg:text-left"
             />
           </div>

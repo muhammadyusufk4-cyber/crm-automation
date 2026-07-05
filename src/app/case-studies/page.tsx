@@ -10,7 +10,7 @@ import { ArrowUpRight } from "lucide-react";
 export const metadata: Metadata = {
   title: "Case Studies",
   description:
-    "Real results from CRM automation, AI agent, and RevOps engagements across recruitment, real estate, healthcare, and manufacturing.",
+    "Real results from CRM automation and AI agent projects across HVAC, auto repair, med spas, and dental practices.",
 };
 
 export default function CaseStudiesPage() {

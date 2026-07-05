@@ -16,6 +16,15 @@ import {
   Briefcase,
   Cpu,
   Megaphone,
+  Thermometer,
+  Droplet,
+  Zap,
+  Home,
+  Wrench,
+  Sparkles,
+  Car,
+  Flower2,
+  Smile,
   type LucideIcon,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -38,6 +47,15 @@ export const iconMap: Record<string, LucideIcon> = {
   Briefcase,
   Cpu,
   Megaphone,
+  Thermometer,
+  Droplet,
+  Zap,
+  Home,
+  Wrench,
+  Sparkles,
+  Car,
+  Flower2,
+  Smile,
 };
 
 export function Icon({

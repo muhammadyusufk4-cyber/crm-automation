@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "nodejs";
-export const alt = "Converge — CRM Automation, AI Agents & Revenue Operations";
+export const alt = "Converge — CRM Automation & AI Agents for Local Service Businesses";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -55,7 +55,7 @@ export default function Image() {
             lineHeight: 1.15,
           }}
         >
-          Automate Your CRM. Close More Deals.
+          Stop Losing Jobs to Slow Follow-Up.
         </div>
         <div
           style={{
@@ -66,7 +66,7 @@ export default function Image() {
             maxWidth: 780,
           }}
         >
-          CRM Automation · AI Agents · RevOps Consulting
+          CRM Automation · AI Agents · For HVAC, Auto, Dental & Med Spas
         </div>
       </div>
     ),

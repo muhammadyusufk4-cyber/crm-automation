@@ -173,8 +173,8 @@ export default async function IndustryDetailPage({
       </section>
 
       <CTASection
-        title={`Ready to automate ${industry.name} operations?`}
-        description="Book a strategy call and we'll show you exactly what this looks like for your team."
+        title={`Ready to stop losing ${industry.name} jobs to slow follow-up?`}
+        description="Book a free 30-minute call and we'll show you exactly what this would look like for your business."
       />
     </>
   );

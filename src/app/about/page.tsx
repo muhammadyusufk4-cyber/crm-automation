@@ -9,14 +9,14 @@ import { Target, Compass, ShieldCheck, Gauge, Layers, Users2 } from "lucide-reac
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Converge is a revenue automation partner helping B2B teams eliminate manual sales work with CRM automation, AI agents, and RevOps consulting.",
+    "Converge helps HVAC, plumbing, auto, dental, and med-spa businesses stop losing customers to slow follow-up with CRM automation, AI agents, and hands-on systems consulting.",
 };
 
 const values = [
   {
     icon: Target,
     title: "Outcomes over output",
-    description: "We measure success in hours saved and deals closed, not workflows shipped.",
+    description: "We measure success in hours saved and jobs booked, not workflows shipped.",
   },
   {
     icon: ShieldCheck,
@@ -37,20 +37,20 @@ const values = [
 
 const whyUs = [
   {
-    title: "We're operators, not just consultants",
-    description: "Every recommendation is built from having implemented it inside a real revenue team, not a slide deck.",
+    title: "We've done this before, not just talked about it",
+    description: "Every recommendation comes from having actually built it inside a real business, not a slide deck.",
   },
   {
-    title: "One partner, full stack",
-    description: "CRM configuration, AI agents, and integrations from one team instead of stitching together three vendors.",
+    title: "One team, everything connected",
+    description: "CRM setup, AI agents, and integrations from one team, instead of coordinating three different vendors.",
   },
   {
-    title: "Platform agnostic",
-    description: "We recommend the CRM, AI model, or automation tool that fits your business — not the one we're incentivized to sell.",
+    title: "We recommend what fits, not what we sell",
+    description: "The right CRM or tool is whichever one fits your business — not the one we make the most money referring.",
   },
   {
-    title: "Fixed scope, fixed price",
-    description: "You know the full investment before we start. No hourly billing surprises.",
+    title: "Fixed price, no surprises",
+    description: "You know the full cost before we start. No hourly billing, no surprise invoices.",
   },
 ];
 
@@ -59,8 +59,8 @@ export default function AboutPage() {
     <>
       <PageHero
         eyebrow="About Converge"
-        title="We build the systems behind the sale."
-        description="Converge exists because too much revenue gets lost to manual process, not bad strategy. We fix the process."
+        title="We build the systems behind every job you win."
+        description="Converge exists because too many good businesses lose customers to slow follow-up, not bad work. We fix the follow-up."
       />
 
       <section className="pb-24 sm:pb-32">
@@ -71,21 +71,22 @@ export default function AboutPage() {
           <Reveal delay={0.05}>
             <div className="mt-6 space-y-4 text-foreground/70 leading-relaxed">
               <p>
-                Converge started with a simple observation: the highest-performing sales teams
-                we worked with weren&apos;t winning because of better reps or bigger budgets —
-                they were winning because almost nothing manual stood between a lead showing up
-                and a rep having everything they needed to close it.
+                Converge started with a simple observation: the busiest, best-reviewed local
+                businesses we talked to weren&apos;t winning because they worked harder than
+                everyone else — they were winning because almost nothing manual stood between a
+                customer calling and that customer getting booked.
               </p>
               <p>
-                Everyone else was buying more software and getting less out of it. CRMs sat
-                half-configured. Leads sat unassigned. Reports took a day to compile. The tools
-                weren&apos;t the problem — nobody had built the automation layer connecting them.
+                Everywhere else, good businesses were losing jobs they should have won. Calls went
+                to voicemail. Quotes took days to go out. Follow-up depended on someone remembering
+                to do it between other jobs. The work wasn&apos;t the problem — nobody had built
+                the system to catch every customer before they called someone else.
               </p>
               <p>
-                Today we work with B2B SaaS companies, agencies, recruiters, healthcare providers,
-                and manufacturers who all share the same pattern: strong demand, inconsistent
-                systems. We build the automation, AI agents, and integrations that close that gap
-                — and we measure ourselves against the hours and revenue it recovers.
+                Today we work with HVAC companies, plumbers, electricians, auto shops, med spas,
+                and dental practices who all share the same pattern: plenty of demand, but a
+                follow-up process that&apos;s costing them jobs. We build the systems that close
+                that gap — and we measure ourselves against the hours and revenue it recovers.
               </p>
             </div>
           </Reveal>
@@ -102,8 +103,8 @@ export default function AboutPage() {
                 </div>
                 <h3 className="mt-6 text-xl font-medium">Our mission</h3>
                 <p className="mt-3 text-foreground/60 leading-relaxed">
-                  To eliminate manual work from revenue operations so every sales team can spend
-                  its time on the conversations that actually close deals.
+                  To take the manual busywork off your team&apos;s plate so every customer gets a
+                  fast reply, every quote gets followed up, and every job gets booked.
                 </p>
               </div>
             </Reveal>
@@ -148,7 +149,7 @@ export default function AboutPage() {
       <section className="pb-24 sm:pb-32">
         <Container>
           <Reveal>
-            <h2 className="text-2xl font-medium tracking-tight sm:text-3xl">Why teams choose us</h2>
+            <h2 className="text-2xl font-medium tracking-tight sm:text-3xl">Why owners choose us</h2>
           </Reveal>
           <div className="mt-10 grid gap-4 sm:grid-cols-2">
             {whyUs.map((w, i) => (
@@ -166,8 +167,8 @@ export default function AboutPage() {
       <ProcessSection />
 
       <CTASection
-        title="Let's talk about your revenue operations."
-        description="Book a 30-minute strategy call — we'll tell you honestly whether automation is your biggest lever right now."
+        title="Let's talk about how your team follows up today."
+        description="Book a free 30-minute call — we'll tell you honestly whether automation is your biggest opportunity right now, or if something else should come first."
       />
     </>
   );

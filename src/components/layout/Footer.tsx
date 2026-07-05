@@ -12,11 +12,11 @@ export function Footer() {
         <div className="flex flex-col items-start justify-between gap-10 border-b border-border-subtle pb-12 lg:flex-row lg:items-center">
           <div className="max-w-lg">
             <h3 className="text-2xl font-medium tracking-tight sm:text-3xl">
-              Ready to stop doing this manually?
+              Ready to stop losing jobs to slow follow-up?
             </h3>
             <p className="mt-3 text-foreground/60">
-              Book a 30-minute strategy call and we&apos;ll map out exactly where automation
-              would save your team the most time.
+              Book a free 30-minute call and we&apos;ll show you exactly where you&apos;re
+              losing time and customers today.
             </p>
           </div>
           <Button href="/contact" size="lg" showArrow>
@@ -33,8 +33,8 @@ export function Footer() {
               Converge
             </Link>
             <p className="mt-4 max-w-xs text-sm text-foreground/60">
-              The revenue automation partner for teams who&apos;d rather build systems than
-              hire more admin.
+              We help HVAC, auto, dental, and med-spa businesses stop losing customers to slow
+              follow-up — without hiring more front-desk staff.
             </p>
             <div className="mt-5 flex items-center gap-3">
               <a

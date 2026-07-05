@@ -4,10 +4,10 @@ import { Reveal } from "@/components/ui/Reveal";
 import { StatCounter } from "@/components/ui/StatCounter";
 
 const benefits = [
-  { stat: "83%", label: "Reduction in manual data entry" },
-  { stat: "11x", label: "Faster first response to leads" },
-  { stat: "35%", label: "Improvement in revenue operations efficiency" },
-  { stat: "20+", label: "Hours of admin work saved weekly per team" },
+  { stat: "83%", label: "Less time on manual data entry (illustrative)" },
+  { stat: "11x", label: "Faster response to new customer inquiries (illustrative)" },
+  { stat: "35%", label: "More appointments booked per month (illustrative)" },
+  { stat: "20+", label: "Admin hours saved every week (illustrative)" },
 ];
 
 export function Benefits() {

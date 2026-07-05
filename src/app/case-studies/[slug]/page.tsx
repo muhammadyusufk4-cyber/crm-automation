@@ -199,8 +199,8 @@ export default async function CaseStudyDetailPage({
       </section>
 
       <CTASection
-        title="Want results like this for your team?"
-        description="Book a strategy call and we'll map the automation opportunity specific to your business."
+        title="Want results like this for your business?"
+        description="Book a free 30-minute call and we'll map the opportunity specific to your business."
       />
     </>
   );

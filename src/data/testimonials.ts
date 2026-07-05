@@ -3,44 +3,44 @@ import { Testimonial } from "@/types";
 export const testimonials: Testimonial[] = [
   {
     quote:
-      "We used to lose good candidates because our process couldn't move fast enough. Now sourcing, screening, and reporting all happen while our recruiters are on calls with clients.",
-    author: "Sarah Chen",
-    role: "VP of Operations",
-    company: "Meridian Recruiting",
+      "We used to lose emergency calls every single night. Now the customer gets a text back before I even see the missed call notification.",
+    author: "Dana Ferraro",
+    role: "Owner",
+    company: "Sterling Heating & Air",
   },
   {
     quote:
-      "Every lead used to be a coin flip on whether it got followed up on. Now every single one gets the same fast, consistent experience regardless of which agent it lands on.",
-    author: "Marcus Rivera",
-    role: "Managing Broker",
-    company: "Brightpath Realty Group",
+      "Our service writer used to spend half her day just telling people where their car was. Now customers already know before they think to call.",
+    author: "Mike Torres",
+    role: "Shop Owner",
+    company: "Ironclad Auto Repair",
   },
   {
     quote:
-      "They didn't just automate what we had — they questioned why we were doing half of it manually in the first place. That perspective alone was worth the engagement.",
-    author: "Dr. Elena Vasquez",
-    role: "Chief Operating Officer",
-    company: "Clearwave Health Partners",
+      "We were losing bookings to DMs we just didn't get to fast enough. Now every inquiry gets an instant reply, even at 9pm on a Saturday.",
+    author: "Camille Reyes",
+    role: "Founder & Medical Director",
+    company: "Lumière Med Spa",
   },
   {
     quote:
-      "Sales used to call operations just to find out where an order stood. Now it's all in the CRM in real time, and quotes go out same-day instead of end-of-week.",
-    author: "Tom Whitfield",
-    role: "VP of Sales",
-    company: "Forge Industrial Supply",
+      "Our team used to spend Friday afternoons calling down a list of overdue patients. Now that list works itself, and we actually see those patients again.",
+    author: "Dr. Priya Nair",
+    role: "Practice Owner",
+    company: "Brightside Family Dental",
   },
   {
     quote:
-      "The AI agent handles more first-touch conversations than our SDR team did last quarter, and it never has an off day. Our reps only see leads worth their time now.",
-    author: "Priya Nair",
-    role: "Head of Revenue",
-    company: "Northline SaaS",
+      "A customer used to have to catch us at the right moment to get a quote. Now they get one the same day, and we're closing jobs we used to lose to slower competitors.",
+    author: "Carlos Medina",
+    role: "Owner",
+    company: "Medina Plumbing Co.",
   },
   {
     quote:
-      "Most agencies build you a dashboard and leave. This team stayed until the automation actually changed how our team works day to day.",
-    author: "James Okafor",
-    role: "Founder",
-    company: "Aperture Consulting",
+      "Most agencies build you a dashboard and disappear. This team stayed until dispatch, quoting, and follow-up actually ran themselves day to day.",
+    author: "Renee Walsh",
+    role: "Office Manager",
+    company: "Walsh Electrical Services",
   },
 ];

@@ -6,7 +6,7 @@ import { BlogListing } from "@/components/sections/BlogListing";
 export const metadata: Metadata = {
   title: "Blog",
   description:
-    "Insights on CRM automation, AI agents, sales automation, RevOps, and integrations for HubSpot, Salesforce, and GoHighLevel.",
+    "Practical advice on CRM automation, AI agents, and running a busier, better-organized service business — for HubSpot, Salesforce, and GoHighLevel users.",
 };
 
 export default function BlogPage() {
@@ -14,8 +14,8 @@ export default function BlogPage() {
     <>
       <PageHero
         eyebrow="Blog"
-        title="Notes on revenue operations, automation, and AI."
-        description="Practical frameworks from engagements we've run — not generic thought leadership."
+        title="Practical advice, not generic AI hype."
+        description="Notes from real projects we've run — what actually worked, what didn't, and what to try next."
       />
       <BlogListing />
       <CTASection />

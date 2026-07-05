@@ -1,28 +1,28 @@
 import { Container } from "@/components/ui/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Reveal } from "@/components/ui/Reveal";
-import { Ban, Clock, Database, TrendingDown } from "lucide-react";
+import { PhoneMissed, Clock, FileWarning, Star } from "lucide-react";
 
 const problems = [
   {
+    icon: PhoneMissed,
+    title: "Missed calls, missed jobs",
+    description: "Every call that goes to voicemail is a customer who might just call the next company on the list.",
+  },
+  {
     icon: Clock,
-    title: "Manual busywork",
-    description: "Reps spend hours a week on data entry, task creation, and status updates instead of selling.",
+    title: "Hours lost to admin",
+    description: "Your team spends evenings on quotes, invoices, and follow-up texts instead of going home on time.",
   },
   {
-    icon: TrendingDown,
-    title: "Lost & cold leads",
-    description: "Leads sit unassigned for hours while speed-to-lead determines whether they convert at all.",
+    icon: FileWarning,
+    title: "Slow quotes lose jobs",
+    description: "A quote that takes three days to go out often loses to whoever got there first.",
   },
   {
-    icon: Database,
-    title: "Scattered data",
-    description: "Contact and deal data lives across a dozen tools that don't talk to each other.",
-  },
-  {
-    icon: Ban,
-    title: "Low CRM adoption",
-    description: "Reps keep shadow spreadsheets because the CRM demands more effort than it gives back.",
+    icon: Star,
+    title: "Happy customers, no reviews",
+    description: "Great jobs go unrated because nobody remembers to ask — until a competitor's reviews pull ahead.",
   },
 ];
 
@@ -32,8 +32,8 @@ export function ProblemStatement() {
       <Container>
         <SectionHeading
           eyebrow="The problem"
-          title="Your CRM is a database. It should be a system."
-          description="Most revenue teams don't have a tooling problem — they have an automation gap. Here's what that gap costs you every week."
+          title="You're not losing jobs because of bad work. You're losing them to slow follow-up."
+          description="Every missed call, delayed quote, and forgotten follow-up is a customer choosing someone else. Here's what that actually costs you every week."
         />
 
         <div className="mt-16 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
